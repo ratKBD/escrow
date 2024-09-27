@@ -1,0 +1,140 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; /* Adjust this value to control the distance from the top */
+  z-index: 1; /* Ensure it stays on top */
+  background-color: white; /* Optional: Set background to avoid transparency issues */
+}
+
+.scrollable {
+  max-height: 80vh; /* Adjust height based on how much you want to display before scrolling */
+  overflow-y: auto; /* Enable vertical scroll */
+  padding-right: 16px; /* Add some padding to avoid content cutting off */
+}
+
+.title {
+  font-weight: 600;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 0.4px;
+  line-height: 43px;
+}
+
+.continueButton {
+  border: 2px solid #2348ab;
+  background-color: #2348ab;
+  color: #ffffff;
+  border-radius: 12px;
+}
+
+.availableBalanceParent {
+  /* width: 200px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.availableBalance,
+.div {
+  position: relative;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+}
+
+.saveMoney1044644423 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-aliceblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+
+.frameParent {
+  align-items: flex-start;
+  font-size: var(--m3-body-large-size);
+}
+.frameParent,
+.saveMoney1044644423Parent {
+  border-radius: var(--br-xs);
+  display: flex;
+}
+
+.dottedBorder {
+  border: 2px dotted #dc3545; /* Bootstrap’s default danger color */
+  padding: 0.5rem;
+}
+
+.partitioned {
+  padding-left: 15px;
+  letter-spacing: 42px;
+  border: 0;
+  background-image: linear-gradient(
+    to left,
+    black 70%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px;
+  outline: none;
+}
+
+.centerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.transactionsButtons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  color: var(--color-slategray);
+}
+
+.transactions {
+  flex: 1;
+  position: relative;
+  font-size: var(--m3-body-large-size);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-family: var(--font-sarabun);
+  text-align: left;
+}
+
+.activeButton {
+  background-color: #2348ab;
+  color: var(--color-white);
+}
+
+/* Change icon color to white when the button is active */
+.activeButton .arrowDownUpIcon,
+.activeButton .statementsButtonsChild {
+  fill: var(--color-white); /* Change icon color to white */
+}
+
+/* Ensure inactive icons have default color */
+.transactionsButtons:not(.activeButton) .arrowDownUpIcon,
+.statementsButtons:not(.activeButton) .statementsButtonsChild {
+  fill: var(--color-slategray); /* Default icon color */
+}
+
+.statementsButtons:hover,
+.transactionsButtons:hover,
+.loadsButtons:hover {
+  background-color: var(--color-lightgray);
+}

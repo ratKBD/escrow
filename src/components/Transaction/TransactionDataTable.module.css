@@ -1,0 +1,426 @@
+.leadingIcon {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 8px;
+  width: 16px;
+  height: 16px;
+}
+.labelText,
+.labelText1 {
+  position: absolute;
+  letter-spacing: 0.5px;
+}
+.labelText {
+  top: 17px;
+  left: 40px;
+  line-height: 24px;
+}
+.labelText1 {
+  top: 13px;
+  left: 30px;
+}
+.content2 {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 28px);
+  top: 0;
+  right: 14px;
+  bottom: 0;
+  left: 14px;
+}
+.trailingIcon {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 22px;
+  width: 16px;
+  height: 16px;
+}
+.supportingText1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  display: inline-block;
+}
+.supportingText {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 60px;
+  right: 16px;
+  left: 16px;
+  height: 16px;
+  display: none;
+}
+.textField {
+  width: 220px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  border: 1px solid var(--m3-sys-light-outline);
+  box-sizing: border-box;
+  height: 40px;
+}
+.filterLinesIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.download01Parent,
+.filterLinesParent {
+  border-radius: var(--br-11xl);
+  border: 1px solid var(--m3-sys-light-outline);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-2xl);
+  gap: var(--gap-3xs);
+}
+.download01Parent {
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.vectorIcon1 {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.latestAccountTransactionParent,
+.reLoadTable,
+.textFieldParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.reLoadTable {
+  border-radius: var(--br-41xl);
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-xs);
+}
+.latestAccountTransactionParent,
+.textFieldParent {
+  gap: var(--gap-5xs);
+}
+.latestAccountTransactionParent {
+  gap: var(--gap-237xl);
+}
+.topChild {
+  width: 1049px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+.top {
+  align-self: stretch;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.vectorIcon2 {
+  width: 7.4px;
+  position: relative;
+  height: 12px;
+}
+.dateWrapper,
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-5xl) var(--padding-3xl)
+    var(--padding-15xl);
+}
+.dateWrapper {
+  padding: var(--padding-base) var(--padding-36xl) var(--padding-base)
+    var(--padding-9xl);
+}
+.contactNameWrapper,
+.debitWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-mini);
+}
+.debitWrapper {
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-45xl);
+}
+.acBalanceWrapper,
+.acNoUpiWrapper,
+.creditWrapper,
+.heading,
+.utrbankrrnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-2xl) var(--padding-base)
+    var(--padding-31xl);
+}
+.acBalanceWrapper,
+.acNoUpiWrapper,
+.heading,
+.utrbankrrnWrapper {
+  padding: var(--padding-base) var(--padding-sm) var(--padding-base)
+    var(--padding-38xl);
+}
+.acNoUpiWrapper,
+.heading,
+.utrbankrrnWrapper {
+  padding: var(--padding-base) var(--padding-11xl) var(--padding-base)
+    var(--padding-36xl);
+}
+.acNoUpiWrapper,
+.heading {
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-42xl);
+}
+.heading {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-200);
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 0;
+}
+.frameParent6,
+.vectorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent6 {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 7.4px;
+  gap: var(--gap-21xl);
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent7 {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 91px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-9xl);
+}
+.frameParent7,
+.frameParent8,
+.nithinPrakashWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.nithinPrakashWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent8 {
+  position: absolute;
+  top: 0;
+  left: 158px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+}
+.wrapper8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frameParent9 {
+  position: absolute;
+  top: 0;
+  left: 317px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.wrapper18 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent10,
+.frameParent11,
+.frameParent12,
+.frameParent13 {
+  position: absolute;
+  top: 0;
+  left: 429px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.frameParent11,
+.frameParent12,
+.frameParent13 {
+  left: 554px;
+}
+.frameParent12,
+.frameParent13 {
+  left: 705px;
+  width: 168px;
+  align-items: flex-start;
+}
+.frameParent13 {
+  left: 910px;
+  width: 134px;
+}
+.frameChild,
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5,
+.frameInner,
+.frameItem,
+.lineDiv {
+  position: absolute;
+  top: 37.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 1045px;
+  height: 1px;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5,
+.frameInner,
+.frameItem,
+.lineDiv {
+  top: 87.5px;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5,
+.frameInner,
+.lineDiv {
+  top: 143.5px;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5,
+.lineDiv {
+  top: 194.5px;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: 245.5px;
+}
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: 298.5px;
+}
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  top: 349.5px;
+}
+.frameChild4,
+.frameChild5 {
+  top: 401.5px;
+}
+.frameChild5 {
+  top: 454.5px;
+}
+.frameParent5 {
+  align-self: stretch;
+  position: relative;
+  height: 475px;
+}
+.dataTable {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 523px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-15xl);
+  box-sizing: border-box;
+  font-family: var(--font-source-sans-3);
+  color: var(--color-forestgreen);
+}
+.rowsPerPage {
+  width: 119px;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  display: inline-block;
+  height: 24px;
+  flex-shrink: 0;
+}
+.rowsPerPageParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupIcon {
+  width: 60.3px;
+  position: relative;
+  height: 11.5px;
+}
+.bottom {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-xs) var(--br-xs);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-xl) var(--padding-13xl) var(--padding-xl)
+    var(--padding-735xl);
+  gap: var(--gap-base);
+}
+.transactionDataTable {
+  position: absolute;
+  top: 237px;
+  left: 26px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  width: 1112.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--m3-body-small-size);
+  color: var(--m3-sys-light-on-surface-variant);
+  font-family: var(--m3-body-small);
+}

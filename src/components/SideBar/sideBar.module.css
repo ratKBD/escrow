@@ -1,0 +1,113 @@
+.escrowstackLogos27Icon {
+  width: 100px;
+  position: relative;
+  border-radius: var(--br-181xl);
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.getintofintech {
+  letter-spacing: 0.15px;
+  line-height: 24px;
+}
+
+.sidenavecontainer {
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+}
+
+.arrowDownUpIcon,
+.statementsButtonsChild {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  fill: var(--color-slategray); /* Default icon color */
+}
+
+.loadsButtons,
+.statementsButtons,
+.transactionsButtons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  color: var(--color-slategray);
+}
+
+.statements,
+.transactions {
+  flex: 1;
+  position: relative;
+  font-size: var(--m3-body-large-size);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-family: var(--font-sarabun);
+  text-align: left;
+}
+
+.statementsButtons:hover,
+.transactionsButtons:hover,
+.loadsButtons:hover {
+  background-color: var(--color-lightgray);
+}
+
+/* .statementsButtons:active,
+.transactionsButtons:active,
+.loadsButtons:active {
+  background-color: var(--color-coral);
+} */
+
+.activeButton {
+  background-color: #2348ab;
+  color: var(--color-white);
+}
+
+/* Change icon color to white when the button is active */
+.activeButton .arrowDownUpIcon,
+.activeButton .statementsButtonsChild {
+  fill: var(--color-white); /* Change icon color to white */
+}
+
+/* Ensure inactive icons have default color */
+.transactionsButtons:not(.activeButton) .arrowDownUpIcon,
+.statementsButtons:not(.activeButton) .statementsButtonsChild {
+  fill: var(--color-slategray); /* Default icon color */
+}
+
+.loadsButtonsParent,
+.sidenavecontainerParent {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+}
+
+.loadsButtonsParent {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  color: var(--color-white);
+}
+
+.sidenavecontainerParent {
+  position: relative;
+  background-color: var(--color-white);
+  border-right: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-857xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--m3-body-large-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-sarabun);
+  height: 100vh !important;
+}

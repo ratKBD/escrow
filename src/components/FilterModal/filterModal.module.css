@@ -1,0 +1,184 @@
+.modalContainer {
+  position: absolute;
+  top: 0; /* Adjust the top value if needed */
+  right: 0; /* Align it to the right */
+  z-index: 999; /* Ensure it is on top of other elements */
+  background-color: white; /* Ensure the modal has a background */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visibility */
+  border-radius: 12px; /* Optional: Add rounded corners */
+  padding: 20px; /* Optional: Add padding inside the modal */
+  width: 400px; /* Adjust width if necessary */
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent; /* Fully transparent */
+  z-index: 999; /* Ensure it's behind the modal */
+}
+
+
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .modalContainer {
+    width: 100%; /* Make the modal responsive on small screens */
+    right: 0; /* Keep it aligned to the right */
+  }
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.feeStatementScreenFilter {
+  width: 558px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+  font-family: var(--font-sarabun);
+  font-weight: 500;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslateblue);
+}
+
+.label {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 52px;
+}
+.floatingLabel {
+  margin-top: -21px;
+  background-color: var(--m3-sys-light-surface);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  white-space: nowrap;
+}
+.input,
+.input1 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 91px;
+}
+.input1 {
+  min-width: 68px;
+  white-space: nowrap;
+}
+.fieldInner,
+.inputParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputParent {
+  gap: 15px;
+}
+.fieldInner {
+  padding: 0 var(--padding-9xs);
+  font-size: var(--m3-body-large-size);
+  color: var(--m3-sys-light-on-surface);
+}
+.cursorIcon {
+  width: 0;
+  height: 16px;
+  position: relative;
+  display: none;
+}
+.field {
+  width: 245px;
+  height: 56px;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--m3-sys-light-outline);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 12px;
+  gap: 5px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--m3-label-medium-size);
+  color: var(--m3-sys-light-outline);
+  font-family: var(--m3-body-large);
+}
+
+.input {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  background-color: transparent;
+  padding-right: 30px; /* Ensure space for the icon */
+  width: 100%; /* Make the input take full width */
+}
+
+.fieldInner {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.cursorIcon {
+  width: 16px; /* Adjust the size as needed */
+  height: 16px;
+  position: absolute;
+  right: 10px; /* Align to the right with some padding */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.field {
+  width: 245px;
+  height: 56px;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--m3-sys-light-outline);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 12px;
+  gap: 5px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--m3-label-medium-size);
+  color: var(--m3-sys-light-outline);
+  font-family: var(--m3-body-large);
+}
+
+.continueButton {
+  border: 2px solid #2348ab;
+  background-color: #2348ab;
+  color: #ffffff;
+  border-radius: 12px;
+}

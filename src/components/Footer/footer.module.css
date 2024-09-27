@@ -1,0 +1,29 @@
+/* .footer {
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+} */
+
+.footer {
+  padding: 20px 0;
+  /* position: sticky; */
+  bottom: 0;
+  width: 100%;
+  font-family: var(--font-sarabun);
+}
+
+.footerColor {
+  color: #2348ab;
+  font-size: 20px;
+}
+
+.footerIcon {
+  width: 100px;
+  position: relative;
+  border-radius: var(--br-181xl);
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
